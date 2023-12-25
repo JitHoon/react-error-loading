@@ -1,42 +1,69 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100vw;
+  height: 100vh;
+
+  margin: auto 0;
+
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.header {
+  width: 90%;
+  height: 30%;
+
+  margin: 30px auto;
+  border: 1px solid gray;
+  padding: 10px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner__container {
+  width: 90%;
+  height: 30%;
+
+  margin: 30px auto;
+  border: 1px solid gray;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.main {
+  width: 90%;
+  height: 45%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 30px auto;
+  border: 1px solid gray;
+  padding: 10px;
 }
 
-.card {
-  padding: 2em;
+.custom-menu__container {
+  width: 35%;
+  height: 90%;
+
+  margin: 0 auto;
+  border: 1px solid gray;
+  padding: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.user__container {
+  width: 50%;
+  height: 90%;
+
+  margin: 0 auto;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.user-info__container {
+  margin: 20px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.alarm__container {
+  margin: 20px;
+  border: 1px solid gray;
+  padding: 10px;
 }
