@@ -1,7 +1,9 @@
 const CustomMenu = ({ categories }: { categories: string[] }) => (
   <>
     {categories.map((category) => (
-      <div className="menu">{category}</div>
+      <div key={category} className="menu">
+        {category}
+      </div>
     ))}
   </>
 );
