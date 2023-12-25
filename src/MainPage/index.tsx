@@ -1,13 +1,15 @@
-import { lazy, Suspense } from "react";
-const Banner = lazy(() => import("../Banner"));
+import { Suspense } from "react";
+import Banner from "../Banner";
 import BannerSkeleton from "../Banner/index.skeleton";
-const CustomMenu = lazy(() => import("../CustomMenu"));
+import CustomMenu from "../CustomMenu";
 import CustomMenuSkeleton from "../CustomMenu/index.skeleton";
 import User from "../User";
 import { useFetchCategory } from "./hooks/queries/useFetchCategory";
 
 const MainPage = () => {
   const { data } = useFetchCategory();
+
+  //throw new Error("메인 페이지를 불러올 수 없습니다.");
 
   return (
     <div>
