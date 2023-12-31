@@ -1,5 +1,5 @@
 const CustomMenu = ({ categories }: { categories: string[] }) => {
-  // throw new Error("카테고리 정보를 불러올 수 없습니다.");
+  throw new Error("카테고리 정보를 불러올 수 없습니다.");
 
   return (
     <>
